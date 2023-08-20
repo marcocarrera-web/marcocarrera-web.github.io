@@ -1,0 +1,9 @@
+.parrafo {
+    text-align: center; /* Centrar el texto */
+    text-align: justify; /* Justificar el texto */
+    color: #000; /* Color de texto: negro */
+    font-family: Arial, sans-serif; /* Tipo de letra: Arial */
+    font-size: 14px; /* Tamaño de letra: 12 píxeles */
+    margin: 20 auto; /* Centrar horizontalmente con margen automático */
+    max-width: 850px; /* Margen máximo de 600 píxeles */
+}

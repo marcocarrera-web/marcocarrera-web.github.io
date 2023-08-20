@@ -1,0 +1,153 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Acá tengo estilos generales */
+
+.imagen-container {
+    display: flex;
+}
+
+.imagen-container img {
+    width: 100%;
+
+}
+
+
+ 
+/* Acá tengo los estilos del header */
+
+header {
+    background: #1f1f1f; 
+    padding: 10px 50px;
+ }
+
+ #logo {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+ }
+
+ #logo img {
+    border-radius: 100%;
+    border: 2px solid #fff;
+ }
+
+ .texto {
+   font-size: 24px; /* Tamaño de fuente grande */
+   color: #f6fafa; /* Color de letra llamativo (rojo en este ejemplo) */
+   text-align: left; /* Alineación del texto a la izquierda */
+   width: 41%; /* Abarcar todo el ancho disponible */
+   margin: 0; /* Eliminar los márgenes para que el texto ocupe todo el ancho */
+   padding: 0; /* Eliminar los rellenos para que el texto ocupe todo el ancho */
+ }
+
+ .encabezado {
+   display: inline-flex;
+   justify-content: space-between; /* Alinea los elementos a los extremos */
+   align-items: center; /* Alinea verticalmente los elementos en el centro */
+   width: 100%; /* Abarca todo el ancho de la pantalla */
+   margin: 0; /* Elimina los márgenes predeterminados */
+   padding: 0; /* Elimina los rellenos predeterminados */
+ }
+ 
+ .imagen-container {
+   margin-right: 10px; /* Ajusta el margen a tu preferencia */
+ }
+ 
+ 
+
+
+ /* Estilos del menú */
+header {
+   background: rgba(0,0,0,0.9);
+   width: 100%;
+   position: fixed;
+   z-index: 10;
+ }
+ 
+ .menu {
+   text-align: right; /* Alinea el contenido del menú a la derecha */
+ }
+ .menu ul {
+   list-style: none;
+   overflow: hidden; /* Limpiamos errores de float */
+   margin: 0;
+   padding: 0;
+   text-align: right;
+ }
+ .menu ul li {
+   float: left;
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+ }
+ .menu ul li a {
+   display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+   padding: 20px;
+   color: #fff;
+   text-decoration: none;
+ }
+ .menu ul li:hover {
+   background: #34363b;
+ }
+ 
+
+
+ /* Acá están los estilos de hero */
+
+ #hero {
+    position: relative;
+ }
+
+ #hero #computadora {
+    display: inline-block;
+    width: 100%;
+ }
+
+ #hero .informacion-contenedor {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
+ }
+
+ #hero .informacion-contenedor #foto {
+    width: 200px;
+ }
+
+ #hero .informacion-contenedor #foto img {
+    border-radius: 60%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+ }
+
+ #hero .informacion-contenedor .informacion {
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ #hero .informacion-contenedor .informacion span {
+    display: inline-block;
+    color: #b5b5b5;
+    margin-bottom: 100px;
+  }
